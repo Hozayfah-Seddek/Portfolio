@@ -9,7 +9,13 @@
     font-family: Times-New-Roman, serif;
     position: relative;
 }
-
+.main2 {
+    height: 100%;
+    width: 100%;
+    background: var(--bg-colour);
+    font-family: Times-New-Roman, serif;
+    position: relative;
+}
 nav {
     width: 84%;
     margin: auto;
@@ -161,23 +167,4 @@ span{
 #icon{
     border: 3px solid var(--secondary-colour);
     border-radius: 55px;
-}
-
-@media screen and (max-height: 100vh){
-    .main {
-            height: 100%;
-            width: 100%;
-            background: var(--bg-colour);
-            font-family: Times-New-Roman, serif;
-            position: relative;
-        }
-}
-@media screen and (min-height: 100vh) {
-    .main {
-        height: 100vh;
-        width: 100%;
-        background: var(--bg-colour);
-        font-family: Times-New-Roman, serif;
-        position: relative;
-    }
 }
