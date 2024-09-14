@@ -168,3 +168,25 @@ span{
     border: 3px solid var(--secondary-colour);
     border-radius: 55px;
 }
+
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: var(--secondary-colour);
+    font-size: 25px;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 0.00001fr 0.00001fr 0.00001fr 0.00001fr 0.00001fr 0.00001fr;
+    gap: 15px;
+}
+
+.row {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
