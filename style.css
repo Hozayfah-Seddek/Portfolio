@@ -148,6 +148,22 @@ span{
     font-size: 25px;
 }
 
+.body img{
+    display: block;
+    border: 5px solid #212121;
+    border-radius: 10px;
+}
+
+.iel{
+    width: 55%;
+    height: 45%;
+}
+
+.jav{
+    width: 65%;
+    height: 85%;
+}
+
 .port{
     color: #3d49b9;
     margin-left: 8%;
