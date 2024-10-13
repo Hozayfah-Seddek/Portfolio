@@ -221,6 +221,10 @@ span {
     margin-left: 30%;
 }
 
+.accordion li .conv {
+    margin-left: 20%;
+}
+
 .accordion li label {
     display: flex;
     align-items: center;
