@@ -111,6 +111,7 @@ span {
 .info p {
     color: var(--secondary-colour);
     line-height: 22px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -122,7 +123,6 @@ span {
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
-    font-size: 22px;
     font-weight: bold;
 }
 
