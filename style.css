@@ -22,8 +22,8 @@ nav {
 }
 
 .logo {
+    margin-top: 1%;
     width: 100px;
-    cursor: pointer;
 }
 
 nav ul {
@@ -54,6 +54,10 @@ nav ul li a:hover {
     margin-right: 40px;
     width: 30px;
     cursor: pointer;
+}
+
+.nav{
+    margin-top: 1%;
 }
 
 .lang-box a:hover{
