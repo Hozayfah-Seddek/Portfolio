@@ -48,11 +48,6 @@ nav ul li a:hover {
     color: #3d49b9;
 }
 
-.lang-box{
-    position: absolute;
-    right: 40px;
-}
-
 #icon {
     border: 3px solid var(--secondary-colour);
     border-radius: 55px;
@@ -111,8 +106,6 @@ span {
 .info p {
     color: var(--secondary-colour);
     line-height: 22px;
-    font-size: 22px;
-    font-weight: bold;
 }
 
 .info a {
@@ -123,7 +116,6 @@ span {
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
-    font-weight: bold;
 }
 
 .img-box {
@@ -298,7 +290,6 @@ input[type="checkbox"] {
 }
 
 .accordion .content h3 a {
-    text-decoration: none;
     color: var(--secondary-colour);
 }
 

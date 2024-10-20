@@ -165,11 +165,8 @@ span {
 
 /* Social Links */
 .social-links {
-    position: absolute;
-    bottom: 230px;
-    /* Move up by 7px */
-    right: 7.25%;
-    /* Move left by 10px */
+    margin-right: 8%;
+    margin-bottom: 30px;
     text-align: right;
 }
 
@@ -177,22 +174,6 @@ span {
     font-size: 30px;
     color: var(--secondary-colour);
     margin-left: 20px;
-}
-
-.social-links .fa-github {
-    position: absolute;
-    right: 20px;
-    /* Adjust position */
-    bottom: 10px;
-    /* Adjust position */
-}
-
-.social-links .fa-linkedin-in {
-    position: absolute;
-    right: 80px;
-    /* Adjust position */
-    bottom: 10px;
-    /* Adjust position */
 }
 
 .social-links a:hover {
@@ -279,10 +260,9 @@ span {
 }
 
 .accordion {
-    margin-left: 140px;
+    margin-right: 5%;
     width: 80%;
-    position: absolute;
-    right:100px;
+    
 }
 
 .accordion li {
@@ -350,7 +330,6 @@ input[type="checkbox"] {
 }
 
 .accordion .content h3 a {
-    text-decoration: none;
     color: var(--secondary-colour);
 }
 
