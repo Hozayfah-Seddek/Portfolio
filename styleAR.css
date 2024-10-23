@@ -69,17 +69,23 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #3d49b9;
+    font-size: 27px;
 }
 
 .lang-box a:hover {
     color: #3d49b9;
+    
 }
 
-.en,
+.en {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
 .ar {
     display: flex;
     justify-content: space-between;
-    width: 120px;
+    width: 140px;
 }
 
 .en:before {
@@ -99,7 +105,6 @@ nav ul li a:hover {
     color: #1f2fb8;
 }
 
-/* Info Section */
 .info {
     margin-right: 8%;
     margin-top: 15%;
@@ -136,14 +141,12 @@ span {
     font-weight: bold;
 }
 
-/* Image Box */
 .img-box {
     width: 32%;
     height: 83%;
     position: absolute;
     bottom: 0;
     left: -70px;
-    /* Move more to the left */
 }
 
 .img-box img {
@@ -163,7 +166,14 @@ span {
     right: 40px;
 }
 
-/* Social Links */
+.butt {
+    transform: scale(1);
+}
+
+.butt:hover {
+    transform: scale(1.15);
+}
+
 .social-links {
     margin-right: 8%;
     margin-bottom: 30px;
@@ -178,7 +188,7 @@ span {
 
 .social-links a:hover {
     color: #3d49b9;
-    /* Ensure hover color changes */
+    font-size: 35px;
 }
 
 #icon {
@@ -222,18 +232,29 @@ span {
     line-height: 22px;
 }
 
+.body p a {
+    color: #2134dd;
+}
+
+.body p a:hover {
+    color: #3d49b9;
+    font-size: 25px;
+}
+
 .body ul {
     color: var(--secondary-colour);
     font-size: 22px;
     line-height: 22px;
 }
 
-.arr{
-    position: absolute;
-    right: 130px;
-    bottom: 40px;
-    direction: ltr;
+.arr {
+    font-size: 40px;
+    color: #212121;
+}
 
+.arr:hover {
+    color: #3d49b9;
+    font-size: 50px;
 }
 
 .body ul li {

@@ -46,6 +46,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #3d49b9;
+    font-size: 27px;
 }
 
 #icon {
@@ -67,13 +68,13 @@ nav ul li a:hover {
 .en {
     display: flex;
     justify-content: space-between;
-    width: 120px;
+    width: 140px;
 }
 
 .ar{
     display: flex;
     justify-content: space-between;
-    width: 120px;
+    width: 140px;
 }
 
 .en:before{
@@ -147,6 +148,14 @@ span {
     left: 40px;
 }
 
+.butt{
+    transform: scale(1);
+}
+
+.butt:hover {
+    transform: scale(1.15);
+}
+
 .social-links {
     margin-left: 8.25%;
     margin-top: 5px;
@@ -160,6 +169,7 @@ span {
 
 .social-links a:hover {
     color: #3d49b9;
+    font-size: 35px;
 }
 
 :root {
@@ -197,6 +207,15 @@ span {
     line-height: 22px;
 }
 
+.body p a{
+    color: #2134dd;
+}
+
+.body p a:hover {
+    color: #3d49b9;
+    font-size: 25px;
+}
+
 .body ul {
     color: var(--secondary-colour);
     font-size: 22px;
@@ -214,6 +233,16 @@ span {
     display: block;
     border: 5px solid #212121;
     border-radius: 10px;
+}
+
+.arr{
+    font-size: 40px;
+    color: #212121;
+}
+
+.arr:hover {
+    color: #3d49b9;
+    font-size: 50px;
 }
 
 .iel {
